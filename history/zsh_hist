@@ -1,0 +1,254 @@
+    1  source ~/.zshrc
+    2  chsh -s $(which zsh)
+    3  zsh
+    4  env
+    5  history
+    6  ls
+    7  ls node_modules
+    8  npm --help
+    9  ls /home/francois/.npm
+   10  ls /home/francois/.npm/_logs
+   11  ll /home/francois/.npm/_logs
+   12  cat /home/francois/.npm/_logs/2024-10-28T08_51_07_067Z-debug-0.log
+   13  cat /home/francois/.npm/_logs/2024-10-28T09_58_59_444Z-debug-0.log\n
+   14  ls
+   15  npm cache clean --force
+   16  rm package-lock.json
+   17  $
+   18  $1
+   19  $?
+   20  ls
+   21  rm -rf node_modules
+   22  git status
+   23  ls
+   24  ls node_modules
+   25  ls node_modules/react-native
+   26  ls node_modules/@react-native
+   27  ll node_modules
+   28  which zsh
+   29  history
+   30  chsh -s /home/francois/.nix-profile/bin/zsh\n
+   31  cat /etc/shells
+   32  echo "/run/current-system/sw/bin/zsh" | sudo tee -a /etc/shells
+   33  echo "/home/francois/.nix-profile/bin/zsh" | sudo tee -a /etc/shells
+   34  zsh
+   35  chsh -s /home/francois/.nix-profile/bin/zsh\n
+   36  cat /etc/shells
+   37  echo "/home/francois/.nix-profile/bin/zsh" | sudo tee -a /etc/shells
+   38  clear
+   39  ls
+   40  cd Documents
+   41  ls
+   42  cd virtual-brain
+   43  ls
+   44  docker compose up
+   45  sudo systemctl start docker
+   46  docker --verision
+   47  docker --version
+   48  vi /etc/nixos/configuration.nix 
+   49  sudo vi /etc/nixos/configuration.nix 
+   50  sudo nixos-rebuild switch
+   51  sudo nix-channel --update
+   52  nixos-version
+   53  nixos-option services
+   54  sudo vi /etc/nixos/configuration.nix 
+   55  nixos-option services
+   56  cd ..
+   57  ls
+   58  git clone git@github.com:AlphaBril/nix-config.git
+   59  mv nix-config nix-config-Alphabril
+   60  cd
+   61  sudo vi /etc/nixos/configuration.nix 
+   62  sudo nixos-rebuild switch
+   63  docker --version
+   64  cd Documents/virtual-brain
+   65  ls
+   66  docker compose up
+   67  npm run serve:min
+   68  top
+   69  pwd
+   70  rm -rf node_modules
+   71  npm --versio
+   72  npm --version
+   73  ls
+   74  npm install --verbose
+   75  top | grep npm
+   76  npm install --verbose
+   77  top 
+   78  cat ~/.npm/_logs/2024-10-28T14_38_30_735Z-debug-0.log
+   79  cat ~/.npm/_logs/2024-10-28T14_33_42_935Z-debug-0.log
+   80  kill -9 5522
+   81  top
+   82  top | grep npm
+   83  l
+   84  rm -rf node_modules
+   85  history | grep vern
+   86  history | grep verb
+   87  ll ~/.npm/
+   88  ll ~/.npm/_logs
+   89  npm install --verbose --loglevel=verbose \n
+   90  ll ~/.npm/_logs
+   91  cat ~/.npm/_logs/2024-10-28T14_56_57_215Z-debug-0.log
+   92  top | grep npm
+   93  kill -9 7267
+   94  rm -rf node_modules
+   95  npm install --verbose --loglevel=verbose \n
+   96  top | grep npm
+   97  htop
+   98  top | grep npm
+   99  vi /etc/nixos/configuration.nix
+  100  sudo vi /etc/nixos/configuration.nix
+  101  sudo nixos-rebuild switch
+  102  lsblk
+  103  fdisk -L
+  104  fdisk -l
+  105  ls
+  106  rm -rf node_modules
+  107  htop
+  108  sudo npm i
+  109  sudo npm i --verbose 
+  110  htop
+  111  iostat -x 1
+  112  journalctl -xe
+  113  lsblk
+  114  sudo smartctl -H /dev/nvme0n1
+  115  iostat -x 1
+  116  journalctl -xe
+  117  top | grep npm
+  118  npm i
+  119  journalctl -f -xe
+  120  npm i --verbose
+  121  journalctl -f -xe
+  122  journalctl -f -u npm
+  123  journalctl -f -xe
+  124  rm -rf node_modules/abab
+  125  sudo rm -rf node_modules/abab
+  126  sudo npm i --verbose
+  127  sudo npm install --verbose lodash.sortby --no-cache
+  128  sudo npm cache clean --force
+  129  npm cache clean --force
+  130  rm -rf node_modules
+  131  sudo rm -rf node_modules
+  132  ls
+  133  npm i --verbose
+  134  ping google.com
+  135  sudo vi /etc/nixos/configuration.nix
+  136  cd Documents/virtual-brain
+  137  ls
+  138  rm -rf node_modules
+  139  vim .envrc
+  140  vim shell.nix
+  141  direnv allow
+  142  ls
+  143  cd Documents
+  144  ls
+  145  cd virtual-brain
+  146  ll
+  147  direnv
+  148  direnv allow .
+  149  npm cache clean --force
+  150  htop
+  151  top 
+  152  htop
+  153  vi /home/francois/.config/home-manager/home.nix\n
+  154  home-manager switch
+  155  vi ~/.zshrc
+  156  ls
+  157  vi shell.nix
+  158  npm cache clean 
+  159  npm cache clean --force
+  160  npm i --verbose
+  161  sudo vi /etc/nixos/configuration.nix
+  162  vi /home/francois/.config/home-manager/home.nix\n
+  163  sudo nixos-rebuild switch
+  164  home-manager switch
+  165  node --version
+  166  cd Documents/virtual-brain
+  167  vi /home/francois/.config/home-manager/home.nix\n
+  168  cat /home/francois/.config/home-manager/home.nix | grep node\n
+  169  home-manager switch
+  170  home-manager --switch
+  171  cd ..
+  172  node --version
+  173  home-manager --version
+  174  nix-channel --list
+  175  nix-shell '<home-manager>' -A install
+  176  cat /nix/store/ghi3pdwksa606cdr514cnr9m8jcmba8b-home-manager-files/.bashrc
+  177  nix run home-manager/release-24.11-pre -- uninstall
+  178  nix run home-manager/release-24.11-pre -- uninstall --extra-experimental-features
+  179  nix --extra-experimental-features run home-manager/release-24.11-pre -- uninstall 
+  180  nix run --extra-experimental-features home-manager/release-24.11-pre -- uninstall 
+  181  nix run  home-manager/release-24.11-pre --extra-experimental-features -- uninstall 
+  182  home-manager --version
+  183  nix --extra-experimental-features nix-command run home-manager/release-24.11 -- uninstall
+  184  nix --extra-experimental-features run home-manager/release-24.11 -- uninstall
+  185  nix --extra-experimental-features "nix-command run" home-manager/release-24.11 -- uninstall
+  186  nix --extra-experimental-features "nix-command flakes" run home-manager/release-24.05 -- uninstall
+  187  home-manager --version
+  188  node
+  189  nix-channel --list
+  190  nix-shell '<home-manager>' -A install
+  191  cd
+  192  mv .bashrc bashrc
+  193  nix-shell '<home-manager>' -A install
+  194  home-manager --verison
+  195  home-manager --version
+  196  nix --extra-experimental-features "nix-command flakes" run home-manager/release-24.05 -- uninstall
+  197  home-manager --version
+  198  nix-shell '<home-manager>' -A install
+  199  vi /home/francois/.config/home-manager/home.nix\n
+  200  node 
+  201  npm
+  202  cd Documents/virtual-brain
+  203  node --version
+  204  npm i
+  205  htop
+  206  node --version
+  207  cd Documents/virtual-brain
+  208  node --verion
+  209  node --version
+  210  npm --version
+  211  sudo vi /etc/nixos/configuration.nix
+  212  vi /home/francois/.config/home-manager/home.nix\n
+  213  cd /etc/nixos
+  214  ls
+  215  vi flake.nix
+  216  sudo vi flake.nix
+  217  vi configuration.nix
+  218  sudo vi configuration.nix
+  219  sudo nixos-rebuild switch
+  220  home-manager switch
+  221  node
+  222  history 
+  223  vi /home/francois/.config/home-manager/flake.nix\n
+  224  home-manager switch
+  225  vi /home/francois/.config/home-manager/flake.nix\n
+  226  vi /home/francois/.config/home-manager/home.nix \n
+  227  vi /home/francois/.config/home-manager/flake.nix\n
+  228  home-manager switch
+  229  sudo npm cache clean --force
+  230  vi /home/francois/.config/home-manager/flake.nix\n
+  231  ls
+  232  vi shell.nix
+  233  ls
+  234  npm i 
+  235  npm i --verbose
+  236  mkdir home-manager
+  237  cp /home/francois/.config/home-manager/flake.nix home-manager
+  238  cp /home/francois/.config/home-manager/home.nix home-manager
+  239  cp /etc/nixos/configuration.nix  .
+  240  mkdir etc-nixos
+  241  mv configuration.nix etc-nixos
+  242  ls
+  243  cp /etc/nixos/flake.nix etc-nixos
+  244  mkdir npm-folder
+  245  cp ../virtual-brain/shell.nix npm-folder
+  246  cat ../virtual-brain/nx.json
+  247  cat ../virtual-brain/shell.nix
+  248  la ../virtual-brain/
+  249  cat ../virtual-brain/.envrc
+  250  cp ../virtual-brain/.envrc npm-folder
+  251  ls
+  252  mkdir history
+  253  cd history
+  254  history

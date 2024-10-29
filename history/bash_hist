@@ -1,0 +1,239 @@
+    1  nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
+    2  nix-channel update
+    3  nix-channel --update
+    4  [200~$ nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
+    5  nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
+    6  nix-channel --update
+    7  nix-shell '<home-manager>' -A install
+    8  ls
+    9  nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
+   10  nix-channel --update
+   11  nix-shell '<home-manager>' -A install
+   12  nix-channel --list
+   13  =echo $NIX_PATH
+   14  echo $NIX_PATH
+   15  env
+   16  nix-shell '<home-manager>' -A install
+   17  ls
+   18  vi      /home/francois/.config/home-manager/home.nix
+   19  vim   /home/francois/.config/home-manager/home.nix
+   20  nano  /home/francois/.config/home-manager/home.nix
+   21  cat .config/home-manager/home.nix 
+   22  home-manager switch
+   23  nano  /home/francois/.config/home-manager/home.nix
+   24  home-manager switch
+   25  nano  /home/francois/.config/home-manager/home.nix
+   26  nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
+   27  home-manager switch
+   28  adminerevo
+   29  vi /home/francois/.config/home-manager/home.nix
+   30  cat /home/francois/.config/home-manager/home.nix
+   31  socat /home/francois/.config/home-manager/home.nix
+   32  socat -h
+   33  vi /home/francois/.config/home-manager/home.nix
+   34  vi .vimrc
+   35  vi /home/francois/.config/home-manager/home.nix
+   36  vi .vimrc
+   37  vi /home/francois/.config/home-manager/home.nix
+   38  vi .vimrc
+   39  vi /home/francois/.config/home-manager/home.nix
+   40  vi .vimrc
+   41  vi /home/francois/.config/home-manager/home.nix
+   42  vi /home/francois/.config/home-manager/home.nix
+   43  nix-shell -p adminerevo
+   44  vi /home/francois/.config/home-manager/home.nix
+   45  home-manager switch
+   46  vi /home/francois/.config/home-manager/home.nix
+   47  home-manager switch
+   48  home-manager news
+   49  home-manager news | grep code
+   50  vi /home/francois/.config/home-manager/home.nix
+   51  history
+   52  home-manager switch
+   53  cat /home/francois/.config/home-manager/home.nix
+   54  vi /home/francois/.config/home-manager/home.nix
+   55  home-manager switch
+   56  cd .ssh/
+   57  ls -l
+   58  chmod 644 /home/francois/.ssh/virtualBrainGithub.pub
+   59  ls -l
+   60  chmod 600 /home/francois/.ssh/virtualBrainGithub
+   61  chmod 600 /home/francois/.ssh/github
+   62  chmod 600 /home/francois/.ssh/pgsql_virtualbrain
+   63  ls -l
+   64  ls
+   65  cd Documents/
+   66  l
+   67  lsblk
+   68  ls /mnt
+   69  sudo mkdir /mnt/usb
+   70  sudo mount /dev/sda1 /mnt/usb
+   71  ls /mnt
+   72  sudo mkdir /mnt
+   73  sudo mkdir /mnt/usb
+   74  sudo mount /dev/sda1 /mnt/usb
+   75  ls /mnt/usb/
+   76  ls
+   77  cd .ssh
+   78  ssh git@github.com
+   79  ls © 
+   80  ls ~
+   81  pwd
+   82  cd ..
+   83  ls .ssh
+   84  cp /mnt/usb/github* .ssh/
+   85  sudo umount /mnt/usb
+   86  ls
+   87  cd Documents/
+   88  git clone git@github.com:getvirtualbrain/virtual-brain.git
+   89  env
+   90  cd
+   91  vi .bashrc
+   92  cat .bashrc
+   93  pwd
+   94  vi .bashrc
+   95  history
+   96  sudo mount /dev/sda1 /mnt/usb
+   97  cp /mnt/usb/virtualBrainGithub* .ssh/
+   98  cp /mnt/usb/pgsql_virtualbrain* .ssh/
+   99  sudo umount /mnt/usb
+  100  git clone git@github.com:getvirtualbrain/virtual-brain.git
+  101  bash
+  102  bash
+  103  cd 
+  104  git clone git@github.com:getvirtualbrain/virtual-brain.git
+  105  vi .bashrc 
+  106  mv virtual-brain/ Documents/
+  107  cd Documents/
+  108  ls
+  109  git clone git@github.com:getvirtualbrain/virtual-brain.git virtual-brain-backup
+  110  vi /etc/nixos/configuration.nix 
+  111  vi ~/.vimrc 
+  112  vi /etc/nixos/configuration.nix 
+  113  vi ~/.vimrc 
+  114  vi /etc/nixos/configuration.nix 
+  115  history
+  116  vi /home/francois/.config/home-manager/home.nix
+  117  home-manager switch
+  118  vi /home/francois/.config/home-manager/home.nix
+  119  home-manager switch
+  120  vi /home/francois/.config/home-manager/home.nix
+  121  home-manager switch
+  122  sudo usermod -aG docker
+  123  vi /home/francois/.config/home-manager/home.nix
+  124  home-manager switch
+  125  ls
+  126  cd Documents/
+  127  ls
+  128  cd virtual-brain
+  129  npm i
+  130  vi /home/francois/.config/home-manager/home.nix
+  131  vi /home/francois/.config/home-manager/home.nix
+  132  home-manager switch
+  133  zsh
+  134  npm i
+  135  ls
+  136  rm -rf node_modules/
+  137  npm install
+  138  npm install --verbose --loglevel=verbose 
+  139  npm --version
+  140  node --version
+  141  l
+  142  npm install --verbose
+  143  vi /home/francois/.config/home-manager/home.nix
+  144  ls
+  145  ls node_modules/
+  146  ls node_modules/
+  147  zsh
+  148  zsh
+  149  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  150  bash
+  151  zsh
+  152  cat /etc/shells 
+  153  zsh
+  154  vi .bashrc
+  155  which zsh
+  156  zsh
+  157  zsh
+  158  history | grep verb
+  159  zsh
+  160  ping google.com
+  161  zsh
+  162  top 
+  163  zsh 
+  164  zsh
+  165  zsh
+  166  zsh
+  167  zsh
+  168  zsh
+  169  zsh
+  170  history 
+  171  vi /home/francois/.config/home-manager/home.nix
+  172  zsh
+  173  zsh
+  174  histor
+  175  history
+  176  which zsh
+  177  ls
+  178  pwd
+  179  cd ..
+  180  cd virtual-brain
+  181  ls
+  182  direnv allow
+  183  direnv allow .
+  184  top | grep npm
+  185  ls
+  186  rm -rf node_modules/
+  187  sudo npm i --verbose
+  188  history
+  189  node --version
+  190  cd
+  191  node --version
+  192  which node
+  193  home-manager
+  194  zsh
+  195  ls
+  196  home-manager --versio
+  197  home-manager --version
+  198  zsh
+  199  htop
+  200  top | grep npm
+  201  strace -p 6069
+  202  sudo strace -p 6069
+  203  htop
+  204  sudo strace -p 6077
+  205  zsh
+  206  cd Documents/virtual-brain
+  207  rm -rf node_modules/
+  208  sudo rm -rf node_modules/
+  209  ls
+  210  ls -la
+  211  npm cache clean --force
+  212  zsh
+  213  npm install
+  214  npm install --verbose
+  215  nixos-version
+  216  npm i
+  217  npm i --verbose
+  218  htop
+  219  fdisk -l
+  220  sudo fdisk -l
+  221  ll /tmp
+  222  ll /
+  223  du -sh
+  224  sudo du -sh
+  225  ls -lh /tmp
+  226  ls -lh /
+  227  df -h /tmp
+  228  pwd
+  229  ls
+  230  c dDoc
+  231  cd Documents/
+  232  git clone git@github.com:HugoMassonnet/nixos.git
+  233  cd nixos/
+  234  zsh
+  235  ls
+  236  ls history/
+  237  cd history/
+  238  history
+  239  history > bash_hist
